@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+  background-color: #222;
+}
+h1{
+  color: #fff;
+}
+
+.calc{
+  height: 75vh;
+}
+.icon{
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.icon:hover{
+  transform: scale(1.2);
+  opacity: .8;
+}
